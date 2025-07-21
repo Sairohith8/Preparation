@@ -1,0 +1,22 @@
+# Ignore node_modules in both frontend and backend
+frontend/node_modules/
+backend/node_modules/
+
+# Logs
+*.log
+
+# Build outputs
+frontend/dist/
+backend/dist/
+frontend/build/
+backend/build/
+
+# Environment files
+*.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+backend/package-lock.json
+backend/package.json
